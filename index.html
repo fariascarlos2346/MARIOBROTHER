@@ -41,11 +41,15 @@
       <img src="./img/whatsapp.png" alt="link para o whatsap">
 </a>
 
-<form class="formulario-fale-conosco">
-   <input placeholder="Seu nome">
-   <input placeholder="Seu telefone">
-   <textarea placeholder="Digite seu problema aqui ..."></textarea>
-   <button>Pedir Orçamento</button>
+<form 
+   class="formulario-fale-conosco"
+   action="https://formcarry.com/s/-xF7QU3BTiS"
+   method="POST"
+   enctype="multipart/form-data">
+      <input placeholder="Seu nome" type="text" name="nome">
+      <input placeholder="Seu telefone" type="tel" name="telefone">
+      <textarea placeholder="Digite seu problema aqui ..." name="duvidas"></textarea>
+      <button type="submit">Pedir Orçamento</button>
 </form>
    
 </body>
